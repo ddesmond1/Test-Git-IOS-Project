@@ -21,6 +21,7 @@
 		401BE43A196CE23400AAA85C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401BE41C196CE23400AAA85C /* UIKit.framework */; };
 		401BE442196CE23400AAA85C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 401BE440196CE23400AAA85C /* InfoPlist.strings */; };
 		401BE444196CE23400AAA85C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401BE443196CE23400AAA85C /* Git_TestTests.m */; };
+		401BE44F196DD54500AAA85C /* MBFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 401BE44E196DD54500AAA85C /* MBFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		401BE43F196CE23400AAA85C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		401BE441196CE23400AAA85C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		401BE443196CE23400AAA85C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		401BE44D196DD54500AAA85C /* MBFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFTest.h; sourceTree = "<group>"; };
+		401BE44E196DD54500AAA85C /* MBFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				401BE42E196CE23400AAA85C /* MBFViewController.m */,
 				401BE430196CE23400AAA85C /* Images.xcassets */,
 				401BE41F196CE23400AAA85C /* Supporting Files */,
+				401BE44D196DD54500AAA85C /* MBFTest.h */,
+				401BE44E196DD54500AAA85C /* MBFTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				401BE429196CE23400AAA85C /* MBFAppDelegate.m in Sources */,
+				401BE44F196DD54500AAA85C /* MBFTest.m in Sources */,
 				401BE42F196CE23400AAA85C /* MBFViewController.m in Sources */,
 				401BE425196CE23400AAA85C /* main.m in Sources */,
 			);
